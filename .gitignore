@@ -1,0 +1,35 @@
+# =====================
+# Environment & Secrets
+# =====================
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# =====================
+# Virtual Environment
+# =====================
+venv/
+.venv/
+
+# =====================
+# Python cache
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================
+# Face data / local storage
+# =====================
+db_faces/
+temp_faces/
+
+# =====================
+# OS / Editor junk
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
