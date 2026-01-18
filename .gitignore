@@ -6,7 +6,8 @@
 *.key
 *.pem
 secrets/
-
+# BUT allow env template
+!.env.example
 # =====================
 # Virtual Environment
 # =====================
